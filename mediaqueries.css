@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    /* height: 83vh; */
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -9,6 +9,9 @@
   #contact,
   #projects {
     height: fit-content;
+  }
+  .project-details-container{
+    grid-template-columns:  repeat(2, 1fr);
   }
 }
 
@@ -45,6 +48,9 @@
   .about-containers {
     margin-top: 0;
   }
+  .project-details-container{
+    grid-template-columns:  repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -53,7 +59,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    /* height: 83vh; */
     margin-bottom: 0;
   }
   article {
@@ -67,6 +73,10 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+  }
+  
+  .project-details-container{
+    grid-template-columns:  repeat(1 , 1fr);
   }
   .contact-info-container {
     margin: 0;
@@ -88,7 +98,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    /* height: 46vw; */
     justify-content: center;
   }
   .section__text__p2 {
